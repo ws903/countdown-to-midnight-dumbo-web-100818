@@ -8,8 +8,6 @@ def countdown(time)
 end
 
 def countdown_with_sleep(time)
-  until time == 0
-    time-=1
-  end
+  sleep(time)
   true
 end
